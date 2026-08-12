@@ -1,0 +1,8 @@
+---
+- name: Local Environment Test
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Print a success message
+      debug:
+        msg: "Ansible is fully operational on this Mac!"
